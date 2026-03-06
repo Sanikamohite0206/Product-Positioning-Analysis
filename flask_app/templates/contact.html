@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Product Positioning Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', Arial, sans-serif; margin: 0; padding: 0; background: #0a0a0a; }
+        .navbar { background: #111d4a; color: #fff; padding: 1em 2em; display: flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .navbar a { color: #fff; text-decoration: none; margin-right: 2em; font-weight: bold; letter-spacing: 1px; transition: color 0.2s; }
+        .navbar a.active, .navbar a:hover { color: #fbb13c; }
+        .container { max-width: 1200px; margin: 3em auto; background: #181818; padding: 2.5em 2em 2em 2em; border-radius: 16px; box-shadow: 0 4px 24px rgba(17,29,74,0.20); color: #fff; }
+        h1 { color: #fff; font-size: 2.5em; margin-bottom: 0.5em; letter-spacing: 1px; }
+        .contact-info { margin-bottom: 2em; }
+        .contact-info div { margin-bottom: 0.5em; }
+        form input, form textarea { width: 100%; padding: 0.5em; margin-bottom: 1em; border-radius: 4px; border: 1px solid #333; background: #222; color: #fff; }
+        form button { background: #fbb13c; color: #181818; border: none; padding: 0.7em 2em; border-radius: 4px; font-weight: bold; cursor: pointer; transition: background 0.2s, color 0.2s; }
+        form button:hover { background: #fff; color: #111d4a; }
+        ::placeholder { color: #bbb; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/story">Story</a>
+        <a href="/about">About</a>
+        <a href="/contact" class="active">Contact</a>
+    </div>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <div><b>Location:</b> Gachibowli Drive, Gachibowli, Hyderabad, INDIA</div>
+            <div><b>Email:</b> business@someexample.com</div>
+            <div><b>Call:</b> 90564 46605</div>
+        </div>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>

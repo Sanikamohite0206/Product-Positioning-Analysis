@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Product Positioning Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', Arial, sans-serif; margin: 0; padding: 0; background: #0a0a0a; }
+        .navbar { background: #111d4a; color: #fff; padding: 1em 2em; display: flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .navbar a { color: #fff; text-decoration: none; margin-right: 2em; font-weight: bold; letter-spacing: 1px; transition: color 0.2s; }
+        .navbar a.active, .navbar a:hover { color: #fbb13c; }
+        .about-section { max-width: 900px; margin: 3em auto; background: #181818; border-radius: 16px; box-shadow: 0 4px 24px rgba(17,29,74,0.20); padding: 2.5em 2em 2em 2em; color: #fff; }
+        .about-title { color: #fff; font-size: 2.2em; font-weight: 700; margin-bottom: 0.5em; letter-spacing: 1px; }
+        .about-highlight { color: #fbb13c; font-weight: 700; font-size: 1.1em; letter-spacing: 1px; }
+        .about-desc { color: #e0e0e0; font-size: 1.1em; margin-bottom: 2em; }
+        .about-list { background: #101010; border-radius: 10px; padding: 1.5em 1.5em 1.5em 2.5em; color: #fff; box-shadow: 0 2px 8px rgba(251,177,60,0.05); }
+        .about-list li { margin-bottom: 0.7em; font-size: 1.08em; }
+        .about-img { float: right; margin-left: 2em; width: 260px; border-radius: 12px; box-shadow: 0 2px 16px rgba(251,177,60,0.10); }
+        @media (max-width: 900px) {
+            .about-section { padding: 1em; }
+            .about-img { float: none; display: block; margin: 0 auto 2em auto; width: 90%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/story">Story</a>
+        <a href="/about" class="active">About</a>
+        <a href="/contact">Contact</a>
+    </div>
+    <div class="about-section">
+<img src="/img/image.png" alt="Sales Analysis" class="home-img">
+        <div class="about-title">The Project Involves</div>
+        <div class="about-desc">
+            <span class="about-highlight">Data collection</span> is the process of gathering and measuring information on variables of interest, in an established systematic fashion that enables one to answer stated research questions, test hypotheses, and evaluate outcomes and generate insights from the data.<br><br>
+            <span class="about-highlight">Data preparation</span> is the process of cleaning, transforming, and organizing data in order to make it suitable for analysis. It is an important stage in the data analysis process, as the quality of the data used can have a significant impact on the accuracy and reliability of the results.<br><br>
+            <span class="about-highlight">Data visualization</span> is the process of creating graphical representations of data in order to help people understand and derive insight from the information. The goal of data visualization is to make complex data sets more accessible, intuitive, and easier to interpret. By using visual elements such as charts, graphs, and maps, data visualizations can help people quickly identify patterns, trends, and outliers in the data.
+        </div>
+        <ul class="about-list">
+            <li>Data collection and preparation</li>
+            <li>Data visualization with Tableau</li>
+            <li>Web integration using Flask</li>
+        </ul>
+    </div>
+</body>
+</html>
