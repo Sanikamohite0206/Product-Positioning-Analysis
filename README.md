@@ -24,7 +24,7 @@ The dashboard is published on Tableau Public and integrated into a simple web in
 ## Tableau Dashboard
 Interactive dashboard published on Tableau Public:
 
-https://public.tableau.com/views/Product_Positioning_Analysis_1/Dashboard1
+https://public.tableau.com/views/Product_Positioning_Analysis_1/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 ## Key Features
 - Interactive Tableau Dashboard
